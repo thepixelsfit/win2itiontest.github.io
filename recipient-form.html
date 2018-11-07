@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	  
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/win2ition.css">
+	<!-- Icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="shortcut icon" href="images/b-master-favicon.ico?crc=28238185"/>
+	  
+	 <!-- CAPTCHA script -->
+	 <script src="https://www.google.com/recaptcha/api.js"></script>
+	  
+  <title>Recipient Inquiry | Win2ition™</title>
+  </head>
+  <body>
+	  
+ 
+	
+	  
+	  <div class="main-background">
+	
+	
+<div class="container formhead">
+			<h1>Recipient Inquiry</h1>
+		</div>
+		  
+		  <div class="container form">
+		
+			<form action="recipient-mailer.php" method="post">
+				<div class="form-group">
+					<label for="firstname">First name:</label> <input class="form-control" id="email" name="firstname" placeholder="First name" type="text">
+				</div>
+				<div class="form-group">
+					<label for="lastname">Last name:</label> <input class="form-control" id="lastname" name="lastname" placeholder="Last name" type="text">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label> <input class="form-control" id="email" name="email" placeholder="Enter email" type="email">
+				</div><br>
+				<div class="form-group">
+					<label for="phone">Phone number:</label> <input class="form-control" id="email" name="phone" placeholder="Enter number" type="number">
+				</div><br>
+				<div class="form-group">
+					<label for="message">Please provide the reason for your interest in Win2ition:</label> 
+					<textarea class="form-control" cols="30" id="message" name="message" placeholder="..." rows="9"></textarea>
+				</div><br>
+				<div class="g-recaptcha" data-sitekey="6Le4JXkUAAAAALo9Dri5P9sj0iuYH7G8Tlt_Mq5x"></div>
+				<br>
+				<button class="btn btn-default center-block" name="submit" type="submit">Submit</button><br>
+				<br>
+				
+			</form>
+		  </div>
+	
+	</div>
+	
+</body>
+</html>

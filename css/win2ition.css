@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-background {
+	/*background-color: #CFF0FF;*/
+	background-image:url(../images/umbrellasbg.png);
+	background-size: contain;
+	
+}
+
+
+/*
+.background-hands {
+	background-image:url(../images/adobestock_hands.jpg);
+	background-size:contain;
+	width: 100%;
+	background-position:fixed;
+	background-repeat:no-repeat;
+}
+*/
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link {
+	color: #232323;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #232323 !important;
+}
+
+
+.navbar-nav li a:hover {
+    color: #1C82C8 !important;
+}
+
+
+.navbar-nav li.active a {
+    color: #1C82C8 !important;
+    /* background-color:#3F9AF2 !important; */
+}
+
+
+footer {
+    background-color:#3F9AF2;
+    color: white;
+    text-align: center;
+ 	padding: 32px;
+}
+
+.fa {
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 55px;
+  	text-align: center;
+ 	text-decoration: none;
+  	margin: 5px 2px;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* YouTube */
+.fa-youtube-play {
+    background: #EA333B;
+    color: white;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/*
+.img-steps {
+    border-radius: 40%;
+	
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+} */
+
+.link-text a:link {
+    color: white;
+}
+
+.link-text a:visited {
+    color: white;
+}
+
+.link-text a:hover {
+    color: gray;
+}
+
+.link-text a:active {
+    color: white;
+}
+
+.btn-custom {
+	background-color: #73D119;
+	color: white;
+}
+
+.form {
+	margin-top:30px;
+	margin-right: 20px,20px;
+}
+
+.formhead {
+	margin-bottom:15px;
+	text-align: center;
+	color: black;
+}
+
+
+.text-box {
+	background-color: #3F9AF2;
+	background-size: cover;
+}
+
+
+.info-text {
+	color: white;
+	text-align: center;
+	padding-top: 45px;
+	padding-left: 30px, 30px;
+	margin-bottom: 45px;
+
+}
+
+.text-box2 {
+	background-color: white;
+	background-size: cover;
+}
+
+.info-text2 {
+	color: #000000;
+	text-align: center;
+	padding-top: 45px;
+	padding-left: 30px, 30px;
+	margin-bottom: 45px;
+
+}
+
+
+
+.steps-text {
+	color: white;
+	text-align: center;
+	padding-top: 45px;
+	padding-left: 30px, 30px;
+	margin-bottom: 45px;
+
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-image: url(../images/adobestock_hands.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.jumbotron2 {
+    margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-image: url(../images/donateheart2.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+.jumbotron3 {
+    margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-image: url(../images/getinvolvedgroup.jpg);
+    background-position: 0% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+.jumbotron4 {
+    margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-image: url(../images/aboutussprout.jpg);
+    background-position: 0% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.text-right {
+	padding: 30px;
+	margin-top: 25px;
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+
+.carousel-inner iframe {
+    width: 100%;
+	min-height: 500px;
+	height: 100%;
+      
+  }
+
+.center-btn {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rowspace {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.card-text {
+	color: black;
+}
+
+.center {
+	object-position: center;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+.recip-box {
+	background-color: #D5F3F3;
+	background-size: cover;
+}
+
+.invo-box {
+	background-color: #D5F3F3;
+	background-size: cover;
+	
+}
